@@ -11,7 +11,7 @@ public:
 
 	int Loadimg(void) {
 
-		imgstart = LoadGraph("imgstart1.png");
+		imgstart = LoadGraph("imgstart.png");
 
 		return 0;
 
