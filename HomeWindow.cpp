@@ -20,6 +20,8 @@ public:
 
 	int homewindow(void) {
 
+		SW.start();
+
 		if (CheckHitKey(KEY_INPUT_RETURN) != 0) {
 
 			SW.start();

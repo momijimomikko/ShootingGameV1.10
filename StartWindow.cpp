@@ -5,13 +5,13 @@ class StartWindow {
 
 private:
 
-	int imgstart;
+	int imgstart1;
 
 public:
 
 	int Loadimg(void) {
 
-		imgstart = LoadGraph("imgstart.png");
+		imgstart1 = LoadGraph("imgstart.png");
 
 		return 0;
 
@@ -19,7 +19,7 @@ public:
 
 	int start(void) {
 
-		DrawGraph(0, 0, imgstart, TRUE);
+		DrawGraph(0, 0, imgstart1, TRUE);
 
 		return 0;
 
